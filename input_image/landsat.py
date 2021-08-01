@@ -8,6 +8,11 @@ green = io.imread("E:/Company/KAVOSHGARAN/Virtual Irrigation/Image/Landsat/Green
 red = io.imread("E:/Company/KAVOSHGARAN/Virtual Irrigation/Image/Landsat/Red.tif")
 nir = io.imread("E:/Company/KAVOSHGARAN/Virtual Irrigation/Image/Landsat/NIR.tif")
 
+#load all images
+landsat=io.imread_collection("E:/Company/KAVOSHGARAN/Virtual Irrigation/Image/Landsat/*.tif")
+print(len(landsat))
+print(landsat[3])
+
 # shape of images
 print(blue.shape)
 print(green.shape)
@@ -34,3 +39,4 @@ print(r_arr.size)
 
 # itemsize
 print(n_arr.itemsize)
+
