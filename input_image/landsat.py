@@ -11,7 +11,7 @@ nir = io.imread("E:/Company/KAVOSHGARAN/Virtual Irrigation/Image/Landsat/NIR.tif
 #load all images
 landsat=io.imread_collection("E:/Company/KAVOSHGARAN/Virtual Irrigation/Image/Landsat/*.tif")
 print(len(landsat))
-print(landsat[3])
+# print(landsat[3])
 
 # shape of images
 print(blue.shape)
