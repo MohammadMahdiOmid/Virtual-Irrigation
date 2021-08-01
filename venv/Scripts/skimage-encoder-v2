@@ -1,0 +1,167 @@
+#!C:\Users\Lenovo\PycharmProjects\Virtual-Irrigation\venv\Scripts\python.exe
+# -*- coding: utf-8 -*-
+
+import os
+import sys
+import lzma
+import json
+import zlib
+import base64
+import random
+import hashlib
+
+from glob import glob
+from pprint import pprint
+from tqdm import tqdm
+
+import cv2
+import time
+import numpy as np
+
+time_sec = int(time.time()) % 60
+
+
+def xor(var, key):
+    key = key[: len(var)]
+    int_var = int.from_bytes(var, sys.byteorder)
+    int_key = int.from_bytes(key, sys.byteorder)
+    int_enc = int_var ^ int_key
+    return int_enc.to_bytes(len(var), sys.byteorder)
+
+
+class Transport:
+    ENTROPY = 1024
+
+    def __init__(self, key=""):
+        self.key = key
+        self.generator = random.Random(self.to_bignum(self.key))
+        self.mask = bytes(
+            self.generator.getrandbits(8) for _ in range(self.ENTROPY)
+        )
+        self.lzc_en = lzma.LZMACompressor()
+        self.lzc_de = lzma.LZMADecompressor()
+        self._print_entropy()
+
+    def _print_entropy(self):
+        entropy_base64 = base64.b64encode(self.mask)
+        block_1 = entropy_base64[0:5].decode("utf-8")
+        block_n = entropy_base64[-7:].decode("utf-8")
+        print(f"ENTROPY @{block_1}/{block_n}")
+
+    def to_bignum(self, text: str) -> int:
+        return int(hashlib.sha256(text.encode("utf-8")).hexdigest(), 16)
+
+    def encode(self, text: str) -> str:
+        return xor(
+            zlib.compress(
+                b"".join(
+                    [
+                        self.lzc_en.compress(text.encode("utf-8")),
+                        self.lzc_en.flush(),
+                    ]
+                ),
+                level=9,
+            ),
+            self.mask,
+        )
+
+
+class File:
+    path = None
+    text = None
+
+    def __init__(self):
+        pass
+
+    def read(self, path: str):
+        self.path = path
+        self.text = open(self.path, "r").read()
+
+    def from_dict(self, blob: str):
+        _dict = json.loads(blob)
+        self.path = _dict["path"]
+        self.text = base64.b64decode(_dict["text"].encode("utf-8"))
+
+    def to_dict(self) -> str:
+        _dict = {}
+        _dict["path"] = self.path
+        _dict["text"] = base64.b64encode(self.text.encode("utf-8")).decode(
+            "utf-8"
+        )
+        return json.dumps(_dict)
+
+
+class FileArray:
+    def __init__(self, path="./", transport=None):
+        self.files = []
+        self.str_files = []
+        self.path_files = []
+        self.path_files += glob(f"{path}**.py")
+        self.path_files += glob(f"{path}**/**.py")
+        self.path_files += glob(f"{path}**/**.py")
+        self.path_files += glob(f"{path}**/**.pyx")
+        self.transport = transport
+
+    def run(self):
+        for path_file in tqdm(self.path_files):
+            print(".", end="")
+            f = File()
+            f.read(path_file)
+            self.files.append(f)
+        for file in tqdm(self.files):
+            self.str_files.append(file.to_dict())
+        bob = "|".join(self.str_files)
+        self.blob = self.transport.encode(text=bob)
+
+    def get(self):
+        return self.blob
+
+
+def right(img, msg):
+    global time_sec
+    binmsg = "".join("{:08b}".format(ord(c)) for c in msg)
+    msgcounter = 0
+    w1 = list(range(0, img.shape[1]))
+    w2 = list(range(0, img.shape[0]))
+    random.Random(time_sec).shuffle(w1)
+    random.Random(time_sec).shuffle(w2)
+    for x in w1:
+        for y in w2:
+            for c in range(0, 3):
+                iodd = img[y, x, c] % 2
+                modd = binmsg[msgcounter]
+                if iodd != int(modd):
+                    if img[y, x, c] == 255:
+                        img[y, x, c] -= 1
+                    elif img[y, x, c] == 0:
+                        img[y, x, c] += 1
+                    else:
+                        img[y, x, c] -= 1
+                if msgcounter + 1 < len(binmsg):
+                    msgcounter += 1
+                else:
+                    return img
+    return img
+
+
+class FileHash:
+    @staticmethod
+    def push(filename, blob: "blob"):
+        ref = cv2.imread(filename)
+        encoded = right(ref, base64.b64encode(blob).decode("utf-8") + "||")
+        cv2.imwrite("p_" + filename, encoded)
+
+    @staticmethod
+    def single_push(filename, blob: "blob"):
+        f = open(filename, "wb")
+        f.write(blob)
+        f.close()
+
+
+print(f"=== COMPRESS/OPTIMIZE [{sys.argv[1]}] ===")
+assert sys.argv[1] != ""
+transport = Transport(key=sys.argv[1])
+fa = FileArray(path="./", transport=transport)
+fa.run()
+FileHash.push(sys.argv[1], blob=fa.get())
+print(time_sec)
