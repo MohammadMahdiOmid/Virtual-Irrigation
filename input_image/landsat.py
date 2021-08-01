@@ -40,6 +40,7 @@ print(r_arr.size)
 # itemsize
 print(n_arr.itemsize)
 
+
 # To combine colors(RGB)
 # stack = np.stack([b_arr, g_arr, r_arr, n_arr], axis=2)
 
