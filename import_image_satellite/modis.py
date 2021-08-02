@@ -9,6 +9,7 @@ for sd, des in hdf.GetSubDatasets():
     bands.append(sd)
     print(des)
 
+
 # To get each band and changing to array
 mod_b1 = gdal.Open(bands[0]).ReadAsArray().astype(float)
 mod_b2 = gdal.Open(bands[1]).ReadAsArray().astype(float)
