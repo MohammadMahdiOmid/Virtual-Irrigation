@@ -34,3 +34,7 @@ To getting images with their histogram(bios)
 
 # Adjust Sigmoid
 ![](image_inhancement/images/adj_sigmoid.png)
+
+# Mosaic
+merge two mosaic images
+![]()
