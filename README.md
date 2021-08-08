@@ -37,4 +37,4 @@ To getting images with their histogram(bios)
 
 # Mosaic
 merge two mosaic images
-![](mosaic_file/images/result.png)
+![](mosaic_file/images/resualt.png)
