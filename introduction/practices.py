@@ -2,6 +2,7 @@ import keyword
 import sys
 import decimal
 import fractions
+import numpy
 
 # key words in python
 print(keyword.iskeyword('break'))
