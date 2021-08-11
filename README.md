@@ -42,3 +42,9 @@ merge two mosaic images
 # HSV(RGB2HSV)
 with skimage(rgb2hsv)
 ![](hsv/images/hsv_images.png)
+
+# Spectral profile
+#### using OpenCv and scikit_image
+https://user-images.githubusercontent.com/78675207/128985724-92295a94-ff6d-4060-9cd5-b942a66cfa64.mp4
+
+
