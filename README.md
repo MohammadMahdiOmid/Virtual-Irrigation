@@ -61,6 +61,6 @@ https://user-images.githubusercontent.com/78675207/128985724-92295a94-ff6d-4060-
 ![](indices/images/AFVI.png)
 ### UI 
 ![](indices/images/UI.png)
-### DIFERENCES
+### DIFFERENCES
 ![](indices/images/All.png)
 ![](indices/images/All2.png)
