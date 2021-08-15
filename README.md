@@ -58,7 +58,7 @@ https://user-images.githubusercontent.com/78675207/128985724-92295a94-ff6d-4060-
 ### SAVI 
 ![](indices/images/SAVI.png)
 ### AFVI 
-![]indices/images/AFVI.png)
+![](indices/images/AFVI.png)
 ### UI 
 ![](indices/images/UI.png)
 ### DIFERENCES
