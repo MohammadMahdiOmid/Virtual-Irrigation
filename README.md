@@ -49,3 +49,18 @@ https://user-images.githubusercontent.com/78675207/128985724-92295a94-ff6d-4060-
 
 # PCA Algorithm
 ![](PCA_algorithm/images/pca.png)
+
+# INDICES
+### NDVI 
+![](indices/images/NDVI.png)
+### NDWI
+![](indices/images/NDWI.png)
+### SAVI 
+![](indices/images/SAVI.png)
+### AFVI 
+![]indices/images/AFVI.png)
+### UI 
+![](indices/images/UI.png)
+### DIFERENCES
+![](indices/images/All.png)
+![](indices/images/All2.png)
