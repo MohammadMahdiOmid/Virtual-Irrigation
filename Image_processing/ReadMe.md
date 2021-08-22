@@ -7,7 +7,7 @@
   
   
  ### PCA 
- - [PCA](https://github.com/MohammadMahdiOmid/Virtual-Irrigation/blob/master/Image_processing/PCA_algorithm/pca.ipynb)
+ - [PCA.ipynb](https://github.com/MohammadMahdiOmid/Virtual-Irrigation/blob/master/Image_processing/PCA_algorithm/pca.ipynb)
  - [ReadMe](https://github.com/MohammadMahdiOmid/Virtual-Irrigation/blob/master/Image_processing/PCA_algorithm/PCA_algorithm.md)
 
 
