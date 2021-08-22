@@ -1,8 +1,8 @@
 # KAVOSHGARAN COMPANY
-- [Image Processing Directort]()
+- [Image Processing Directory]()
 - [Image Processing ReadMe]()
-- [Machine Learning]()
-- []()
+- [Machine Learning Directory]()
+- [Machine Learning ReadMe]()
 - []()
 - []()
 
