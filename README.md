@@ -5,21 +5,6 @@
 - [Image Processing ReadMe](https://github.com/MohammadMahdiOmid/Virtual-Irrigation/blob/master/Image_processing/ReadMe.md)
 - [Machine Learning Directory](https://github.com/MohammadMahdiOmid/Virtual-Irrigation/tree/master/Machine_learning)
 - [Machine Learning ReadMe](https://github.com/MohammadMahdiOmid/Virtual-Irrigation/blob/master/Machine_learning/ReadMe.md)
-- []()
-- []()
-
-- [HSV IMAGES](https://github.com/MohammadMahdiOmid/Virtual-Irrigation/blob/master/Image_processing/hsv/hsv.md)
-
-
-
-
-
-
-
-
-
-
-
 
 # Virtual-Irrigation
 Machine Learning &amp; Image Processing
