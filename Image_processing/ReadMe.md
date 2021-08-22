@@ -1,6 +1,6 @@
 # Image processing with Skimage and OpenCv
 
-  - [NC]
+ ## NC DETAILS
     - [NC](https://github.com/MohammadMahdiOmid/Virtual-Irrigation/blob/master/Image_processing/NC/necCDF4.ipynb)
     - [ReadMe](https://github.com/MohammadMahdiOmid/Virtual-Irrigation/blob/master/Image_processing/NC/NC.md)
   - [PCA]
