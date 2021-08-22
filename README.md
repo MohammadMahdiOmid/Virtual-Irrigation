@@ -3,64 +3,64 @@ Machine Learning &amp; Image Processing
 
 # Landsat image
 Getting landsat images with scikitImage(skimage.io)
-![](import_image_satellite/images/landsat.png)
+![](Image_processing//import_image_satellite/images/landsat.png)
 
 # Modis image 
-![](import_image_satellite/images/Modis.png)
+![](Image_processing//import_image_satellite/images/Modis.png)
 
 # Geo image
-![](import_image_satellite/images/GEO.png)
+![](Image_processing//import_image_satellite/images/GEO.png)
 
 # Aster image
-![](import_image_satellite/images/aster2.png)
+![](Image_processing//import_image_satellite/images/aster2.png)
 
 # Image Inhancement
 To getting images with their histogram(bios)
 
 # Histogram
-![](image_inhancement/images/Histogram.png)
+![](Image_processing//image_inhancement/images/Histogram.png)
 
 # Gamma
-![](image_inhancement/images/gamma.png)
+![](Image_processing//image_inhancement/images/gamma.png)
 
 # Adjust Logarithm
-![](image_inhancement/images/lod_adj.png)
+![](Image_processing//image_inhancement/images/lod_adj.png)
 
 # Equalize Adaptive
-![](image_inhancement/images/eq_adaptive.png)
+![](Image_processing//image_inhancement/images/eq_adaptive.png)
 
 # Equalize Histogram
-![](image_inhancement/images/eql_hist.png)
+![](Image_processing//image_inhancement/images/eql_hist.png)
 
 # Adjust Sigmoid
-![](image_inhancement/images/adj_sigmoid.png)
+![](Image_processing//image_inhancement/images/adj_sigmoid.png)
 
 # Mosaic
 merge two mosaic images
-![](mosaic_file/images/resualt.png)
+![](Image_processing//mosaic_file/images/resualt.png)
 
 # HSV(RGB2HSV)
 with skimage(rgb2hsv)
-![](hsv/images/hsv_images.png)
+![](Image_processing//hsv/images/hsv_images.png)
 
 # Spectral profile
 #### Using OpenCv and Scikit_Image
 https://user-images.githubusercontent.com/78675207/128985724-92295a94-ff6d-4060-9cd5-b942a66cfa64.mp4
 
 # PCA Algorithm
-![](PCA_algorithm/images/pca.png)
+![](Image_processing//PCA_algorithm/images/pca.png)
 
 # INDICES
 ### NDVI 
-![](indices/images/NDVI.png)
+![](Image_processing//indices/images/NDVI.png)
 ### NDWI
-![](indices/images/NDWI.png)
+![](Image_processing//indices/images/NDWI.png)
 ### SAVI 
-![](indices/images/SAVI.png)
+![](Image_processing//indices/images/SAVI.png)
 ### AFVI 
-![](indices/images/AFVI.png)
+![](Image_processing//indices/images/AFVI.png)
 ### UI 
-![](indices/images/UI.png)
+![](Image_processing//indices/images/UI.png)
 ### DIFFERENCES
-![](indices/images/All.png)
-![](indices/images/All2.png)
+![](Image_processing//indices/images/All.png)
+![](Image_processing//indices/images/All2.png)
