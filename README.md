@@ -3,7 +3,7 @@
 ![](Image_processing/NC/images/full_Robinson.png)
 
 - [Image Processing Directory](https://github.com/MohammadMahdiOmid/Virtual-Irrigation/tree/master/Image_processing)
-  - [NC](https://github.com/MohammadMahdiOmid/Virtual-Irrigation/blob/master/Image_processing/NC/necCDF4.ipynb)
+  - [NC](https://github.com/MohammadMahdiOmid/Virtual-Irrigation/tree/master/Image_processing/NC)
   
   - [PCA]
   
