@@ -4,23 +4,14 @@
 
 - [Image Processing](https://github.com/MohammadMahdiOmid/Virtual-Irrigation/tree/master/Image_processing)
   - [NC](https://github.com/MohammadMahdiOmid/Virtual-Irrigation/tree/master/Image_processing/NC)
-  
   - [PCA](https://github.com/MohammadMahdiOmid/Virtual-Irrigation/tree/master/Image_processing/PCA_algorithm)
-  
   - [HSV](https://github.com/MohammadMahdiOmid/Virtual-Irrigation/tree/master/Image_processing/hsv)
-
   - [Image Inhancement](https://github.com/MohammadMahdiOmid/Virtual-Irrigation/tree/master/Image_processing/image_inhancement)
-
   - [Import Satellite](https://github.com/MohammadMahdiOmid/Virtual-Irrigation/tree/master/Image_processing/import_image_satellite)
-  
   - [Indices](https://github.com/MohammadMahdiOmid/Virtual-Irrigation/tree/master/Image_processing/indices)
-  
   - [Mask](https://github.com/MohammadMahdiOmid/Virtual-Irrigation/tree/master/Image_processing/mask)
-  
   - [Mosaic](https://github.com/MohammadMahdiOmid/Virtual-Irrigation/tree/master/Image_processing/mosaic_file)
-  
   - [Spectral Profile](https://github.com/MohammadMahdiOmid/Virtual-Irrigation/tree/master/Image_processing/spectral_profile)
-  
   - [README](https://github.com/MohammadMahdiOmid/Virtual-Irrigation/blob/master/Image_processing/ReadMe.md)
  
 
