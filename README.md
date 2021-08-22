@@ -5,14 +5,18 @@
 - [Image Processing Directory](https://github.com/MohammadMahdiOmid/Virtual-Irrigation/tree/master/Image_processing)
   - [NC](https://github.com/MohammadMahdiOmid/Virtual-Irrigation/tree/master/Image_processing/NC)
   
-  - [PCA]
+  - [PCA]()
   
-  - [HSV]
+  - [HSV]()
 
-  - [Image Inhancement]
+  - [Image Inhancement]()
 
-
-
+  - [Import Satellite]()
+  - [Indices]()
+  - [Mask]()
+  - [Mosaic]()
+  - [Spectral Profile]()
+ 
 
 
 
