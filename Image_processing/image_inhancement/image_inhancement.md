@@ -4,7 +4,7 @@
 # Adjust Sigmoid
 ![](https://github.com/MohammadMahdiOmid/Virtual-Irrigation/blob/master/Image_processing/image_inhancement/images/adj_sigmoid.png)
 # Gamma
-![](Image_processing//image_inhancement/images/gamma.png)
+![](https://github.com/MohammadMahdiOmid/Virtual-Irrigation/blob/master/Image_processing/image_inhancement/images/gamma.png)
 
 # Adjust Logarithm
 ![](https://github.com/MohammadMahdiOmid/Virtual-Irrigation/blob/master/Image_processing/image_inhancement/images/lod_adj.png)
