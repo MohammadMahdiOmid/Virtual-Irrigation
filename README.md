@@ -27,6 +27,9 @@
 
 
 - [Machine Learning Directory](https://github.com/MohammadMahdiOmid/Virtual-Irrigation/tree/master/Machine_learning)
+  - [Supervised Learning](https://github.com/MohammadMahdiOmid/Virtual-Irrigation/tree/master/Machine_learning/supervised%20learning)
+  - [Unsupervised Learning](https://github.com/MohammadMahdiOmid/Virtual-Irrigation/tree/master/Machine_learning/unsupervised%20learning)
+  - [README](https://github.com/MohammadMahdiOmid/Virtual-Irrigation/blob/master/Machine_learning/ReadMe.md)
 
 # Virtual-Irrigation
 Machine Learning &amp; Image Processing
