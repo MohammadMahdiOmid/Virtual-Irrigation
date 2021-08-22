@@ -1,6 +1,6 @@
 # KAVOSHGARAN COMPANY
-- [Image Processing Directory]()
-- [Image Processing ReadMe]()
+- [Image Processing Directory](https://github.com/MohammadMahdiOmid/Virtual-Irrigation/tree/master/Image_processing)
+- [Image Processing ReadMe](https://github.com/MohammadMahdiOmid/Virtual-Irrigation/tree/master/Machine_learning)
 - [Machine Learning Directory]()
 - [Machine Learning ReadMe]()
 - []()
