@@ -5,16 +5,16 @@
 - [Image Processing Directory](https://github.com/MohammadMahdiOmid/Virtual-Irrigation/tree/master/Image_processing)
   - [NC]
     - [NC](https://github.com/MohammadMahdiOmid/Virtual-Irrigation/blob/master/Image_processing/NC/necCDF4.ipynb)
-    - [NC ReadMe](https://github.com/MohammadMahdiOmid/Virtual-Irrigation/blob/master/Image_processing/NC/NC.md)
+    - [ReadMe](https://github.com/MohammadMahdiOmid/Virtual-Irrigation/blob/master/Image_processing/NC/NC.md)
   - [PCA]
     - [PCA](https://github.com/MohammadMahdiOmid/Virtual-Irrigation/blob/master/Image_processing/PCA_algorithm/pca.ipynb)
-    - [PCA ReadMe](https://github.com/MohammadMahdiOmid/Virtual-Irrigation/blob/master/Image_processing/PCA_algorithm/PCA_algorithm.md)
+    - [ReadMe](https://github.com/MohammadMahdiOmid/Virtual-Irrigation/blob/master/Image_processing/PCA_algorithm/PCA_algorithm.md)
   - [HSV]
     - [HSV](https://github.com/MohammadMahdiOmid/Virtual-Irrigation/blob/master/Image_processing/hsv/hsv_file.ipynb)
-    - [HSV ReadMe](https://github.com/MohammadMahdiOmid/Virtual-Irrigation/blob/master/Image_processing/hsv/hsv.md)
+    - [ReadMe](https://github.com/MohammadMahdiOmid/Virtual-Irrigation/blob/master/Image_processing/hsv/hsv.md)
   - [Image Inhancement]
     - [Image Inhancement](https://github.com/MohammadMahdiOmid/Virtual-Irrigation/blob/master/Image_processing/image_inhancement/histograms.ipynb)
-    - [Image Inhancement ReadMe](https://github.com/MohammadMahdiOmid/Virtual-Irrigation/blob/master/Image_processing/image_inhancement/image_inhancement.md)
+    - [ReadMe](https://github.com/MohammadMahdiOmid/Virtual-Irrigation/blob/master/Image_processing/image_inhancement/image_inhancement.md)
 
 
 
