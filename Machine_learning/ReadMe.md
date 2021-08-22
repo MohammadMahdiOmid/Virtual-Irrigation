@@ -1,7 +1,10 @@
 # Supervised Learning
-  ### will
-  - [Classification]()
-  - [Regression]()
+  ### Classification
+  - [Classification.ipynb]()
+  - [README]()
+  ### Regression
+  - [Regression.ipynb]()
+  - [README]()
 # UnSupervised Learning
   #### K_MEANS
   - [K_MEANS.ipynb](https://github.com/MohammadMahdiOmid/Virtual-Irrigation/blob/master/Machine_learning/unsupervised%20learning/Kmeans/k_means.ipynb)
