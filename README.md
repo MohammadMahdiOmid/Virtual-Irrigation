@@ -13,7 +13,7 @@
   - [Mosaic](https://github.com/MohammadMahdiOmid/Virtual-Irrigation/tree/master/Image_processing/mosaic_file)
   - [Spectral Profile](https://github.com/MohammadMahdiOmid/Virtual-Irrigation/tree/master/Image_processing/spectral_profile)
   - [Filters](https://github.com/MohammadMahdiOmid/Virtual-Irrigation/tree/master/Image_processing/Filters)
-  - [Grey-Level Co-occurrence Matrix](https://github.com/MohammadMahdiOmid/Virtual-Irrigation/tree/master/Image_processing/Grey-Level%20Co-occurrence%20Matrix)
+  - [GLCM](https://github.com/MohammadMahdiOmid/Virtual-Irrigation/tree/master/Image_processing/Grey-Level%20Co-occurrence%20Matrix)
   - [README](https://github.com/MohammadMahdiOmid/Virtual-Irrigation/blob/master/Image_processing/ReadMe.md)
  
 
