@@ -1,6 +1,6 @@
 # Supervised Learning
   ### Classification
-  - [Classification.ipynb]()
+  - [SVM.ipynb]()
   - [README]()
   ### Regression
   - [Regression.ipynb]()
