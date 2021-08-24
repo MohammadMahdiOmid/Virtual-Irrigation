@@ -1,4 +1,4 @@
-# Normal Change Detection (sub and div)
+# Normal Change Detection (Subtract and Divide)
 ![](https://github.com/MohammadMahdiOmid/Virtual-Irrigation/blob/master/Image_processing/change_detection/images/pic1.png)
 
 # Change Detection With Magnitude and Direction
