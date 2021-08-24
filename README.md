@@ -3,25 +3,18 @@
 ![](Image_processing/NC/images/full_Robinson.png)
 
 - [Image Processing](https://github.com/MohammadMahdiOmid/Virtual-Irrigation/tree/master/Image_processing)
-  - [NC](https://github.com/MohammadMahdiOmid/Virtual-Irrigation/tree/master/Image_processing/NC)
-  - [PCA](https://github.com/MohammadMahdiOmid/Virtual-Irrigation/tree/master/Image_processing/PCA_algorithm)
-  - [HSV](https://github.com/MohammadMahdiOmid/Virtual-Irrigation/tree/master/Image_processing/hsv)
   - [Image Inhancement](https://github.com/MohammadMahdiOmid/Virtual-Irrigation/tree/master/Image_processing/image_inhancement)
   - [Import Satellite](https://github.com/MohammadMahdiOmid/Virtual-Irrigation/tree/master/Image_processing/import_image_satellite)
-  - [Indices](https://github.com/MohammadMahdiOmid/Virtual-Irrigation/tree/master/Image_processing/indices)
-  - [Mask](https://github.com/MohammadMahdiOmid/Virtual-Irrigation/tree/master/Image_processing/mask)
-  - [Mosaic](https://github.com/MohammadMahdiOmid/Virtual-Irrigation/tree/master/Image_processing/mosaic_file)
   - [Spectral Profile](https://github.com/MohammadMahdiOmid/Virtual-Irrigation/tree/master/Image_processing/spectral_profile)
+  - [Indices](https://github.com/MohammadMahdiOmid/Virtual-Irrigation/tree/master/Image_processing/indices)
+  - [Mosaic](https://github.com/MohammadMahdiOmid/Virtual-Irrigation/tree/master/Image_processing/mosaic_file)
   - [Filters](https://github.com/MohammadMahdiOmid/Virtual-Irrigation/tree/master/Image_processing/Filters)
-  - [Grey-Level Co-occurrence Matrix](https://github.com/MohammadMahdiOmid/Virtual-Irrigation/tree/master/Image_processing/Grey-Level%20Co-occurrence%20Matrix)
+  - [GLCM](https://github.com/MohammadMahdiOmid/Virtual-Irrigation/tree/master/Image_processing/Grey-Level%20Co-occurrence%20Matrix)
+  - [Mask](https://github.com/MohammadMahdiOmid/Virtual-Irrigation/tree/master/Image_processing/mask)
+  - [PCA](https://github.com/MohammadMahdiOmid/Virtual-Irrigation/tree/master/Image_processing/PCA_algorithm)
+  - [HSV](https://github.com/MohammadMahdiOmid/Virtual-Irrigation/tree/master/Image_processing/hsv)
+  - [NC](https://github.com/MohammadMahdiOmid/Virtual-Irrigation/tree/master/Image_processing/NC)
   - [README](https://github.com/MohammadMahdiOmid/Virtual-Irrigation/blob/master/Image_processing/ReadMe.md)
- 
-
-
-
-
-
-
 
 
 - [Machine Learning](https://github.com/MohammadMahdiOmid/Virtual-Irrigation/tree/master/Machine_learning)
